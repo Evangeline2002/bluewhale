@@ -113,11 +113,11 @@ function Hero({ theme }) {
           <h2 className="text-xl sm:text-2xl font-bold uppercase text-brand-400 mb-2 drop-shadow-md tracking-wider">
             {venue.tagline}
           </h2>
-          <h1 className="vintage-title text-[3.5rem] sm:text-[5rem] lg:text-[7rem] xl:text-[8rem] uppercase mb-2 leading-[0.9] drop-shadow-2xl flex flex-col text-white">
+          <h1 className="vintage-title text-[2.75rem] sm:text-[3.5rem] md:text-[5rem] lg:text-[7rem] xl:text-[8rem] uppercase mb-2 leading-[0.9] drop-shadow-2xl flex flex-col text-white">
             <span>{venue.heroTitle.split(' ').slice(0, 2).join(' ')}</span>
             <span className="text-brand-500 mt-2 rotate-[-2deg] pr-4">{venue.heroTitle.split(' ').slice(2).join(' ')}</span>
           </h1>
-          <p className="vintage-script text-2xl lg:text-3xl mt-4 drop-shadow-md rotate-[1deg] pl-2 font-bold text-slate-100">
+          <p className="vintage-script text-xl lg:text-3xl mt-4 drop-shadow-md rotate-[1deg] pl-2 font-bold text-slate-100">
             {venue.heroSubtitle}
           </p>
           <div className="mt-8 flex justify-center lg:justify-start">
@@ -131,14 +131,14 @@ function Hero({ theme }) {
         <div className="relative z-10 flex items-center justify-center lg:justify-end">
 
           {/* Left Hex */}
-          <div className="relative w-44 h-52 -mr-6 z-10 sm:w-52 sm:h-60 scale-95 transition hover:scale-105 hover:z-40">
+          <div className="relative w-24 h-28 -mr-3 z-10 md:w-44 md:h-52 md:-mr-6 lg:w-52 lg:h-60 scale-95 transition hover:scale-105 hover:z-40 mt-4 md:mt-0">
             <div className="w-full h-full bg-white flex items-center justify-center" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
               <div className="w-[92%] h-[92%] bg-slate-200 relative" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
                 <img src="https://i.pinimg.com/1200x/ff/e1/20/ffe120e06de1c2254a24ad0495d3fef1.jpg" alt="Activity" className="w-full h-full object-cover" />
               </div>
             </div>
             {/* Ribbon */}
-            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-48">
+            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-28 md:w-48">
               <svg viewBox="0 0 200 60" className="w-full drop-shadow-xl filter">
                 <path d="M10,20 Q100,-5 190,20 L195,45 Q100,20 5,45 Z" fill="#22c55e" />
                 <path d="M10,20 L5,45 L0,25 Z" fill="#166534" />
@@ -149,21 +149,21 @@ function Hero({ theme }) {
           </div>
 
           {/* Center Hex (Larger) */}
-          <div className="relative w-56 h-64 z-30 sm:w-72 sm:h-80 shadow-2xl drop-shadow-[0_0_15px_rgba(0,0,0,0.5)] transition hover:scale-105">
+          <div className="relative w-36 h-40 z-30 md:w-56 md:h-64 lg:w-72 lg:h-80 shadow-2xl drop-shadow-[0_0_15px_rgba(0,0,0,0.5)] transition hover:scale-105">
             <div className="w-full h-full bg-white flex items-center justify-center" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
               <div className="w-[94%] h-[94%] bg-slate-200 relative" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
                 <img src="https://i.pinimg.com/736x/4b/14/28/4b14286c0d76b27ee45298dc56e09926.jpg" alt="Adventure" className="w-full h-full object-cover scale-110" />
               </div>
             </div>
             {/* Connecting Nodes */}
-            <div className="absolute top-1/2 -left-6 w-10 h-10 bg-accent-500 rounded-full border-4 border-white z-40 flex items-center justify-center -translate-y-1/2 shadow-md">
-              <Sparkles size={16} className="text-white" />
+            <div className="absolute top-1/2 -left-3 md:-left-6 w-6 h-6 md:w-10 md:h-10 bg-accent-500 rounded-full border-[2px] md:border-4 border-white z-40 flex items-center justify-center -translate-y-1/2 shadow-md">
+              <Sparkles size={14} className="text-white hidden md:block" />
             </div>
-            <div className="absolute top-1/2 -right-6 w-10 h-10 bg-accent-500 rounded-full border-4 border-white z-40 flex items-center justify-center -translate-y-1/2 shadow-md">
-              <BadgeCheck size={18} className="text-white" />
+            <div className="absolute top-1/2 -right-3 md:-right-6 w-6 h-6 md:w-10 md:h-10 bg-accent-500 rounded-full border-[2px] md:border-4 border-white z-40 flex items-center justify-center -translate-y-1/2 shadow-md">
+              <BadgeCheck size={16} className="text-white hidden md:block" />
             </div>
             {/* Ribbon */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-64 z-40 relative">
+            <div className="absolute -bottom-4 md:-bottom-6 left-1/2 -translate-x-1/2 w-44 md:w-64 z-40 relative">
               <svg viewBox="0 0 250 80" className="w-full drop-shadow-2xl filter relative z-50">
                 <path d="M15,30 Q125,-10 235,30 L245,65 Q125,25 5,65 Z" fill="white" />
                 <text x="125" y="44" fill="#15803d" fontSize="22" className="vintage-title" textAnchor="middle">ADVENTURE</text>
@@ -172,14 +172,14 @@ function Hero({ theme }) {
           </div>
 
           {/* Right Hex */}
-          <div className="relative w-44 h-52 -ml-6 z-20 sm:w-52 sm:h-60 scale-95 transition hover:scale-105 hover:z-40">
+          <div className="relative w-24 h-28 -ml-3 z-20 md:w-44 md:h-52 md:-ml-6 lg:w-52 lg:h-60 scale-95 transition hover:scale-105 hover:z-40 mt-4 md:mt-0">
             <div className="w-full h-full bg-white flex items-center justify-center" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
               <div className="w-[92%] h-[92%] bg-slate-200 relative" style={{ maskImage: roundedHexMask, maskSize: '100% 100%', WebkitMaskImage: roundedHexMask, WebkitMaskSize: '100% 100%' }}>
                 <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=400&q=80" alt="Trekking" className="w-full h-full object-cover" />
               </div>
             </div>
             {/* Ribbon */}
-            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-48">
+            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-28 md:w-48">
               <svg viewBox="0 0 200 60" className="w-full drop-shadow-xl filter">
                 <path d="M10,20 Q100,-5 190,20 L195,45 Q100,20 5,45 Z" fill="#22c55e" />
                 <path d="M10,20 L5,45 L0,25 Z" fill="#166534" />
