@@ -1,0 +1,126 @@
+export const venue = {
+  name: 'bulewhale',
+  tagline: "BuleWhale's favourite game zone",
+  description:
+    'bulewhale is a full-service entertainment venue with indoor games, outdoor adventures, kids activities and a food & snack court — all under one roof. Book a slot, grab a hand tag and play.',
+  address: '42, MG Road, Indiranagar, Bengaluru',
+  phone: '+91 90000 12345',
+  email: 'hello@gamespot.in',
+  hours: [
+    { days: 'Mon – Fri', time: '11 AM to 11 PM' },
+    { days: 'Sat – Sun', time: '10 AM to 1 AM' },
+  ],
+  stats: [
+    { value: '30+', label: 'Games & Activities' },
+    { value: '4', label: 'Game Zones' },
+    { value: '20+', label: 'Food & Snack Items' },
+    { value: '50k+', label: 'Happy Visitors' },
+  ],
+  activities: [
+    'Zipline – Ride across a cable from one platform to another.',
+    'Rope Course – Balance, climb, and cross suspended obstacles.',
+    'High Rope Course – Advanced rope activities at height.',
+    'Net Climbing – Climb large rope/net structures.',
+    'Wall Climbing – Artificial rock/wall climbing.',
+    'Burma Bridge – Cross a suspended rope bridge.',
+    'Commando Net – Climb through a military-style net.',
+    'Tarzan Swing – Swing from a high platform using a rope.',
+    'Giant Swing – Large-height adventure swing.',
+    'Free Fall / Quick Jump – Controlled jump from a platform.',
+    'Archery – Target shooting with bows and arrows.',
+    'Paintball – Team-based outdoor shooting game.',
+    'Air Rifle Shooting – Target shooting activity.',
+    'ATV/Quad Bike Ride – Off-road vehicle experience.',
+    'Dirt Bike Track – Off-road bike riding.',
+    'Human Foosball – Outdoor team game.',
+    'Bubble Soccer – Players wear inflatable bubbles and play football.',
+    'Zorb Ball – Roll/play inside a large inflatable ball.',
+    'Obstacle Course – Multiple physical challenges.',
+    'Treasure Hunt – Team-based outdoor game.',
+    'Camping & Bonfire – Evening outdoor experience.',
+    'Kids Adventure Zone – Mini zipline, climbing, nets, tunnels, etc',
+  ],
+  heroImage: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=6a6f8d2d9b1d5f3d9a6f3b2a8b9b1c3e',
+  heroTitle: 'A magical outdoor adventure',
+  heroSubtitle: 'Zipline, climbing, archery and more — activities for all ages',
+}
+
+export const gallery = [
+  {
+    id: 'indoor',
+    label: 'Indoor Games',
+    emoji: '🎳',
+    tone: 'from-indigo-500 to-purple-600',
+    items: [
+      { name: 'Bowling', desc: 'Classic 10-pin lanes with automatic scoring.', price: 300, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ten_pin_bowling_alley%2C_Glenrothes.jpg/960px-Ten_pin_bowling_alley%2C_Glenrothes.jpg' },
+      { name: 'VR Gaming', desc: 'Immersive virtual reality experiences.', price: 500, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Virtual_reality_headset.jpg/960px-Virtual_reality_headset.jpg' },
+      { name: 'Arcade Zone', desc: 'Retro & modern arcade cabinets.', price: 150, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tron_Arcade_Machine.jpg/960px-Tron_Arcade_Machine.jpg' },
+      { name: 'Table Tennis', desc: 'Professional ping pong tables.', price: 200, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Table_tennis_table_in_Dentonia_Park_55.jpg/960px-Table_tennis_table_in_Dentonia_Park_55.jpg' },
+      { name: 'Air Hockey', desc: 'Fast-paced competitive tables.', price: 100, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Air_Hockey_Table.jpg/960px-Air_Hockey_Table.jpg' },
+      { name: 'Laser Tag', desc: 'Multiplayer arena with glowing effects.', price: 450, image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Delta_Strike_Laser_tag_equipment_laser_tag_gun.jpg' },
+      { name: 'Billiards', desc: 'Professional billiards & snooker.', price: 250, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Billiards_table_3.jpg/960px-Billiards_table_3.jpg' },
+      { name: 'Karaoke', desc: 'Private booths with premium sound.', price: 350, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Karaoke_in_Nha_Trang.jpg/960px-Karaoke_in_Nha_Trang.jpg' },
+    ],
+  },
+  {
+    id: 'outdoor',
+    label: 'Outdoor Adventures',
+    emoji: '🏏',
+    tone: 'from-emerald-500 to-teal-600',
+    items: [
+      { name: 'Go Karting', desc: 'High-speed track with safety gear.', price: 400, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kart_racing_%28256584996%29.jpg/960px-Kart_racing_%28256584996%29.jpg' },
+      { name: 'Cricket', desc: 'Turf ground with nets & wickets.', price: 600, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Historic_walhalla_cricket_ground_Victoria_Australia.jpg/960px-Historic_walhalla_cricket_ground_Victoria_Australia.jpg' },
+      { name: 'Football', desc: 'Synthetic turf field with floodlights.', price: 500, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/960px-Santiagobernabeupanoramav45.JPG' },
+      { name: 'Paintball', desc: 'Bunker arena with all safety gear.', price: 550, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Paintball_Graveyard.jpg/960px-Paintball_Graveyard.jpg' },
+      { name: 'Archery', desc: 'Guided range with pro bows.', price: 300, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Scioto_Grove_-_Archery_Range_Target_1.jpg/960px-Scioto_Grove_-_Archery_Range_Target_1.jpg' },
+      { name: 'Rope Course', desc: 'Climbing & zip adventure course.', price: 450, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ropes_course_Skalisko.JPG/960px-Ropes_course_Skalisko.JPG' },
+      { name: 'Zipline', desc: 'Thrilling rides over the park.', price: 350, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Zip_Line_Canopy_Tour_Costa_Rica.jpg/960px-Zip_Line_Canopy_Tour_Costa_Rica.jpg' },
+      { name: 'Cycling', desc: 'Mountain biking track with rentals.', price: 200, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mountain_biking.jpg/960px-Mountain_biking.jpg' },
+    ],
+  },
+  {
+    id: 'kids',
+    label: 'Kids Activities',
+    emoji: '🧸',
+    tone: 'from-pink-500 to-rose-500',
+    items: [
+      { name: 'Kids Play Area', desc: 'Slides, tunnels & soft blocks.', price: 150, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Children%27s_playground_in_the_sanatorium_park_in_Shklo.jpg/960px-Children%27s_playground_in_the_sanatorium_park_in_Shklo.jpg' },
+      { name: 'Trampoline', desc: 'Bounce park with foam pits.', price: 200, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trampoline_Park.jpg/960px-Trampoline_Park.jpg' },
+      { name: 'Mini Train', desc: 'Joy ride around the kids zone.', price: 120, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Train_ride_at_Al_Montazah_Park_in_Sharjah.jpg/960px-Train_ride_at_Al_Montazah_Park_in_Sharjah.jpg' },
+      { name: 'Soft Play', desc: 'Ball pits & gentle slides.', price: 180, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Young_children_play_in_a_colorful_indoor_play_area_as_one_pushes_the_other_during_a_fun_and_energetic_moment.jpg/960px-Young_children_play_in_a_colorful_indoor_play_area_as_one_pushes_the_other_during_a_fun_and_energetic_moment.jpg' },
+      { name: 'Ball Pool', desc: 'Thousands of balls & climbing frames.', price: 150, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Asobono_ball_pool.jpg/960px-Asobono_ball_pool.jpg' },
+      { name: 'Mini Car', desc: 'Battery cars on a safe track.', price: 200, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Old_Pedal_Car_in_Sharm_el-Sheikh.jpg/960px-Old_Pedal_Car_in_Sharm_el-Sheikh.jpg' },
+      { name: 'Kids Climbing', desc: 'Supervised wall climbing.', price: 250, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Child_climbs_a_blue_indoor_climbing_wall_at_a_sport_center.jpg/960px-Child_climbs_a_blue_indoor_climbing_wall_at_a_sport_center.jpg' },
+      { name: 'Creative Zone', desc: 'Arts, crafts & painting.', price: 180, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cricoteka_dzieci_w_%C5%82awkach_z_umar%C5%82ej_klasy_2019a.jpg/960px-Cricoteka_dzieci_w_%C5%82awkach_z_umar%C5%82ej_klasy_2019a.jpg' },
+    ],
+  },
+]
+
+export const pricing = [
+  { game: 'Bowling', category: 'Indoor', single: 300, perPerson: 250, packageSession: 200 },
+  { game: 'VR Gaming', category: 'Arcade', single: 500, perPerson: 450, packageSession: 380 },
+  { game: 'Racing Simulator', category: 'Arcade', single: 400, perPerson: 350, packageSession: 300 },
+  { game: 'Laser Tag', category: 'Indoor', single: 450, perPerson: 400, packageSession: 350 },
+  { game: 'Go Karting', category: 'Outdoor', single: 400, perPerson: 350, packageSession: 300 },
+  { game: 'Cricket', category: 'Outdoor', single: 600, perPerson: 550, packageSession: 450 },
+  { game: 'Paintball', category: 'Outdoor', single: 550, perPerson: 500, packageSession: 420 },
+  { game: 'Billiards', category: 'Indoor', single: 250, perPerson: 220, packageSession: 180 },
+  { game: 'Table Tennis', category: 'Indoor', single: 200, perPerson: 180, packageSession: 150 },
+  { game: 'Karaoke', category: 'Indoor', single: 350, perPerson: 300, packageSession: 250 },
+  { game: 'Archery', category: 'Outdoor', single: 300, perPerson: 250, packageSession: 200 },
+  { game: 'Arcade Zone', category: 'Arcade', single: 150, perPerson: 120, packageSession: 100 },
+]
+
+export const memberships = [
+  { name: 'Basic', price: 999, discount: 5, benefits: ['5% off on games & food', 'Priority billing', 'Birthday discount voucher', 'Free entry on your birthday'], color: 'from-slate-500 to-slate-700' },
+  { name: 'Silver', price: 1999, discount: 10, benefits: ['10% off on games & food', '1 free game session / month', 'Priority booking', 'Loyalty points x1.5'], color: 'from-slate-400 to-slate-600' },
+  { name: 'Gold', price: 3999, discount: 15, benefits: ['15% off on games & food', '2 free game sessions / month', 'Priority queue access', 'Free snack combo every visit'], color: 'from-amber-500 to-orange-600', popular: true },
+  { name: 'Platinum', price: 7999, discount: 20, benefits: ['20% off on games & food', 'Unlimited bowling & arcade', 'Dedicated host', 'Complimentary VIP lounge access'], color: 'from-purple-500 to-fuchsia-600' },
+]
+
+export const packages = [
+  { name: 'Starter', price: 999, meta: '5 sessions · 30 days', included: ['Bowling', 'Arcade Zone'] },
+  { name: 'Explorer', price: 1799, meta: '10 sessions · 60 days', included: ['Bowling', 'Table Tennis', 'Laser Tag'] },
+  { name: 'Premium', price: 2999, meta: '20 sessions · 90 days', included: ['Bowling', 'Laser Tag', 'Go Karting', 'VR Gaming'] },
+  { name: 'Family Pass', price: 4999, meta: '4 members · 30 days', included: ['All games & activities for 4 members'] },
+]
