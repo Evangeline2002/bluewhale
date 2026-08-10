@@ -53,7 +53,7 @@ function Navbar({ theme, setTheme }) {
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 shadow-glow">
             <Gamepad2 size={18} className="text-white" />
           </div>
-          <span className={`font-display text-lg font-bold ${theme === 'light' ? 'text-slate-900' : 'text-white'}`}>bulewhale</span>
+          <span className={`font-display text-lg font-bold ${theme === 'light' ? 'text-slate-900' : 'text-white'}`}>bluewhale</span>
         </a>
         <nav className="hidden items-center gap-6 lg:flex">
           {navLinks.map((l) => (
@@ -363,7 +363,7 @@ function Contact() {
           ))}
           <div className="card overflow-hidden">
             <iframe
-              title="bulewhale location"
+              title="bluewhale location"
               className="h-44 w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -420,14 +420,14 @@ function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-accent-500"><Gamepad2 size={16} className="text-white" /></div>
-            <span className="font-display font-bold text-white">bulewhale</span>
+            <span className="font-display font-bold text-white">bluewhale</span>
           </div>
           <p className="max-w-md text-sm text-slate-500">Indoor & outdoor games, kids activities, great food and an awesome time — all under one roof.</p>
           <div className="flex items-center gap-2 text-xs text-slate-500">
             <MapPin size={13} /> {venue.address}
           </div>
         </div>
-        <p className="mt-8 text-center text-xs text-slate-600">© 2026 bulewhale. Demo build — no real bookings.</p>
+        <p className="mt-8 text-center text-xs text-slate-600">© 2026 bluewhale. Demo build — no real bookings.</p>
       </div>
     </footer>
   )

@@ -1,8 +1,8 @@
 export const venue = {
-  name: 'bulewhale',
-  tagline: "BuleWhale's favourite game zone",
+  name: 'bluewhale',
+  tagline: "bluewhale's favourite game zone",
   description:
-    'bulewhale is a full-service entertainment venue with indoor games, outdoor adventures, kids activities and a food & snack court — all under one roof. Book a slot, grab a hand tag and play.',
+    'bluewhale is a full-service entertainment venue with indoor games, outdoor adventures, kids activities and a food & snack court — all under one roof. Book a slot, grab a hand tag and play.',
   address: '42, MG Road, Indiranagar, Bengaluru',
   phone: '+91 90000 12345',
   email: 'hello@gamespot.in',
